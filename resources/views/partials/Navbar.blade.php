@@ -25,14 +25,14 @@
           <a class="navbar-brand"></a>
           <form class="d-flex">
             <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+           
+            <button type="button" class="btn btn-dark">Search</button>
             <nav class="navbar navbar-info bg-info">
         </div>
        </nav>
       <nav class="navbar navbar-info bg-info">
         <form class="container-fluid justify-content-start">
-          
-          <button class="btn btn-outline-success me-2" type="button">Log in</button>
+          <button type="button" class="btn btn-dark">Log in</button>
         </nav>
         <a class="nav-link {{ ($title === "Log in") ? 'active' : '' }}" href="/Log in"></a>
         </form>
