@@ -14,8 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        "title" => "welcome"
+        
+    ]);
+
 });
-Route::get('/Coba', function () {
-    return view('Coba');
+Route::get('/about', function () {
+    return view('about', [
+        "title" => "about"
+       
+    ]);
 });
+
+Route::get('/log in', function () {
+    return view('log in', [
+        "title" => "log in"
+       
+    ]);
+});
+

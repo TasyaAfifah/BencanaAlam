@@ -1,6 +1,6 @@
 @extends('Layout.main')
 
 @section('container')
-    <h1>Welcome</h1>
+    <h1>Halaman Informasi</h1>
 
 @endsection
