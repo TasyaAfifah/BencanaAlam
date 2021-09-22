@@ -15,22 +15,22 @@ use App\Http\Controllers\InformasiController;
 */
 
 Route::get('/', function () {
-    return view('welcome', [
-        "title" => "welcome"
+    return view('Home', [
+        "title" => "Home"
         
     ]);
 
 });
 Route::get('/about', function () {
     return view('about', [
-        "title" => "about"
+        "title" => "About Us"
        
     ]);
 });
 
 Route::get('/log in', function () {
     return view('log in', [
-        "title" => "log in"
+        "title" => "Log in"
        
     ]);
 });
