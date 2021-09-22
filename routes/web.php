@@ -21,16 +21,22 @@ Route::get('/', function () {
     ]);
 
 });
-Route::get('/about', function () {
-    return view('about', [
+Route::get('/About Us', function () {
+    return view('About Us', [
         "title" => "About Us"
        
     ]);
 });
 
-Route::get('/log in', function () {
-    return view('log in', [
+Route::get('/Log in', function () {
+    return view('Log in', [
         "title" => "Log in"
+    ]);
+});
+
+Route::get('/Daftar', function () {
+    return view('Daftar', [
+        "title" => "Daftar"
        
     ]);
 });

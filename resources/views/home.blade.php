@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1>Welcome</h1>
+    <h1>SELAMAT DATANG DI HOTLINE BENCANA ALAM</h1>
     
 
 @endsection
