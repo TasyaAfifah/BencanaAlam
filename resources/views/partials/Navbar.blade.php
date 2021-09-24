@@ -1,32 +1,40 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-info ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-info "  style="box-shadow:0px 3px 3px grey">
   <nav class="navbar navbar-dark bg-primary">
     <!-- Navbar content -->
   </nav>
     <div class="container">
     
-  <a class="navbar-brand" href="/">| Hotline Bencana Alam | </a> 
+  <a class="navbar-brand" href="/">
+    <h4 style="font-weight:bold;">HOTLINE BENCANA ALAM</h4>
+  </a> 
   
       
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"class="fw-bold">
         <span class="navbar-toggler-icon"></span>
         <p class="fw-bold"></p>
-
-</button>
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
+          
           <li class="nav-item">
-            <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
-  </li>
-        <li class="nav-item">
-            <a class="nav-link {{ ($title === "About Us") ? 'active' : '' }}" href="/About Us">About Us</a>
+            <a class="nav-link {{ ($title === "Home Page") ? 'active' : '' }}" href="/">HOME</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link {{ ($title === "Daftar") ? 'active' : '' }}" href="/Daftar">Daftar</a>
+            <a class="nav-link {{ ($title === "About Page") ? 'active' : '' }}" href="/about">ABOUT</a>
           </li>
-         
-      </div>
-      <nav class="navbar navbar-info bg-info">
+
+          <li class="nav-item">
+            <a class="nav-link {{ ($title === "News Page") ? 'active' : '' }}" href="/news">NEWS</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link {{ ($title === "Information Page") ? 'active' : '' }}" href="/information">INFORMATION</a>
+          </li>
+        </ul> 
+
+        <nav class="navbar navbar-info bg-info">
         <div class="container-fluid">
           <a class="navbar-brand"></a>
           <form class="d-flex">
@@ -37,13 +45,21 @@
         </div>
        </nav>
       <nav class="navbar navbar-info bg-info">
-        <form class="container-fluid justify-content-start">
-          <button type="button" class="btn btn-warning">Log in</button>
-        </nav>
-        <a class="nav-link {{ ($title === "Log in") ? 'active' : '' }}" href="/Log in"></a>
-        </form>
+      <div class="navbar-nav ml-auto action-buttons">
+          <a class="nav-link {{ ($title === "Login Page") ? 'active' : '' }}" href="/login">
+            <button type="button" class="btn btn-warning rounded" style="font-weight:bold;color:white;border:1px black solid;box-shadow:0px 1px 1px black;text-shadow:0px 1px 1px grey">
+              Login
+            </button>
+          </a>
+          <a class="nav-link {{ ($title === "Register Page") ? 'active' : '' }}" href="/register">
+          <button type="button" class="btn btn-warning rounded" style="font-weight:bold;color:white;border:1px black solid;box-shadow:0px 1px 1px black;text-shadow:0px 1px 1px grey">
+              Register
+          </button>
+          </a>
+      </div> 
+      </nav>
+      </div>
         
-      
     </div>
     
   </nav>

@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\InformasiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,31 +13,15 @@ use App\Http\Controllers\InformasiController;
 |
 */
 
-Route::get('/', function () {
-    return view('Home', [
-        "title" => "Home"
-        
-    ]);
-
+Route::get('/', function () { return view('home', ["title" => "Home Page"]);
 });
-Route::get('/About Us', function () {
-    return view('About Us', [
-        "title" => "About Us"
-       
-    ]);
+Route::get('/about', function () { return view('about', ["title" => "About Page"]);
 });
-
-Route::get('/Log in', function () {
-    return view('Log in', [
-        "title" => "Log in"
-    ]);
+Route::get('/news', function () { return view('news', ["title" => "News Page"]);
 });
-
-Route::get('/Daftar', function () {
-    return view('Daftar', [
-        "title" => "Daftar"
-       
-    ]);
+Route::get('/information', function () { return view('information', ["title" => "Information Page"]);
 });
-
-Route::get('/informasi', [InformasiController::class, 'index']);
+Route::get('/login', function () { return view('login', ["title" => "Login Page"]);
+});
+Route::get('/register', function () { return view('register', ["title" => "Register Page"]);
+});

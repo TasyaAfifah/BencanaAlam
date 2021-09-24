@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1> Bonjour </h1>
+    
+    <h1> Register Page </h1>
 
 @endsection

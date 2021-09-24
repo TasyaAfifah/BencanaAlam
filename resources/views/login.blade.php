@@ -2,6 +2,6 @@
 
 @section('container')
     
-    <h1>SELAMAT DATANG DI HOTLINE BENCANA ALAM</h1>
+    <h1> Login Page</h1>
 
 @endsection

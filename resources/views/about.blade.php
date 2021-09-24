@@ -1,9 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-    <h1> Halloo </h1>
-  
-
     
+    <h1> About Page </h1>
 
 @endsection
