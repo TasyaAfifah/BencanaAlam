@@ -2,6 +2,6 @@
 
 @section('container')
     
-    <h1> Login Page</h1>
+    <h1> login page</h1>
 
 @endsection
