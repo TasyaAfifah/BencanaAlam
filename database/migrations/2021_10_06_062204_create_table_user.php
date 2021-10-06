@@ -14,15 +14,16 @@ class CreateTableUser extends Migration
     public function up()
     {
         Schema::create('table_user', function (Blueprint $table) {
-            $table->string("id_user")->unique();
-            $table->string("nama",50);
-            $table->string("e-mail",30);
-            $table->string("tgl_lahir",10);
-            $table->string("password",10);
-            $table->string("id_kecamatan",5);
-        });
-    }
+        $table->id();
+        $table->string('nama',50);
+        $table->string('e-mail',30);
+        $table->string('tgl_lahir',10);
+        $table->string('password',10);
+         $table->timestamps();
+    });
+}
 
+      
     /**
      * Reverse the migrations.
      *

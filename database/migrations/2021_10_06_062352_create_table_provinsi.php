@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTableIdBencana extends Migration
+class CreateTableProvinsi extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,14 @@ class CreateTableIdBencana extends Migration
      */
     public function up()
     {
-        Schema::create('table_bencana', function (Blueprint $table) {
-            $table->string("id_bencana",5)->unique();
-            $table->string("id_kategori_bencana",5);
-            $table->string("nama_bencana",50);
-        });
+       
+     Schema::create('table_provinsi', function (Blueprint $table) {
+        $table->id();
+        $table->string("nama",50);
+        $table->timestamps();
+    
+    });
+    
     }
 
     /**
@@ -27,6 +30,6 @@ class CreateTableIdBencana extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_bencana');
+        Schema::dropIfExists('table_provinsi');
     }
 }

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTableIdKota extends Migration
+class CreateTableRole extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,12 @@ class CreateTableIdKota extends Migration
      */
     public function up()
     {
-        Schema::create('table_kota', function (Blueprint $table) {
-            $table->string("id_kota",5)->unique();
-            $table->string("nama",50);
+        Schema::create('table_role', function (Blueprint $table) {
+            $table->id();
+            $table->string("role",20);
+            $table->timestamps();
         });
+        
     }
 
     /**
@@ -26,6 +28,6 @@ class CreateTableIdKota extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_kota');
+        Schema::dropIfExists('table_role');
     }
 }

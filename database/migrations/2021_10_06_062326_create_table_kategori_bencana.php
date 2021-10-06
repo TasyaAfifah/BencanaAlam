@@ -14,8 +14,9 @@ class CreateTableKategoriBencana extends Migration
     public function up()
     {
         Schema::create('table_kategori_bencana', function (Blueprint $table) {
-            $table->string("id_kategori_bencana",5)->unique();
+            $table->id();
             $table->string("kategori_bencana",20);
+            $table->timestamps();
         });
     }
 
