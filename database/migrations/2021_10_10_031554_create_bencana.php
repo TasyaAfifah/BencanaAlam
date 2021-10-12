@@ -14,9 +14,14 @@ class CreateBencana extends Migration
     public function up()
     {
         Schema::create('bencana', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_bencana');
+            $table->string('Nama_bencana');
             $table->timestamps();
         });
+        
+        Schema::table('bencana', function (Blueprint $table) {
+            $table->foreignId('FK_Id_kategori_bencana')->constrained('kategori_bencana');
+});
     }
 
     /**

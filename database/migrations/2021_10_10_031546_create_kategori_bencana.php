@@ -15,6 +15,7 @@ class CreateKategoriBencana extends Migration
     {
         Schema::create('kategori_bencana', function (Blueprint $table) {
             $table->id();
+            $table->string('Kategori_Bencana');
             $table->timestamps();
         });
     }

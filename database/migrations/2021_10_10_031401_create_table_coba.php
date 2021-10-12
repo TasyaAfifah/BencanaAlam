@@ -15,6 +15,9 @@ class CreateTableCoba extends Migration
     {
         Schema::create('table_coba', function (Blueprint $table) {
             $table->id();
+            $table->string('nama',20);
+            $table->string('alamat',20);
+            $table->dateTime('TTL',20);
             $table->timestamps();
         });
     }

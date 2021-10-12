@@ -15,6 +15,11 @@ class CreateTableRole extends Migration
     {
         Schema::create('table_role', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_user',20);
+            $table->string('email',20)->unique();
+            $table->date('tgl_lahir');
+            $table->string('password',8);
+
             $table->timestamps();
         });
     }

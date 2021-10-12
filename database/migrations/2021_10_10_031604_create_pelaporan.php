@@ -15,8 +15,15 @@ class CreatePelaporan extends Migration
     {
         Schema::create('pelaporan', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('FK_Id_user')->constrained('users');
+            $table->foreignId('FK_Id_bencana')->constrained('bencana','id_bencana');
+            $table->foreignId('FK_Id_kecamatan')->constrained('kecamatan');
+            $table->string('waktu_bencana');
+            $table->string('status');
             $table->timestamps();
         });
+        
+        
     }
 
     /**

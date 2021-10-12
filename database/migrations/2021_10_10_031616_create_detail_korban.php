@@ -14,7 +14,12 @@ class CreateDetailKorban extends Migration
     public function up()
     {
         Schema::create('detail_korban', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_detail_korban');
+            $table->foreignId('FK_Id_laporan')->constrained('pelaporan');
+            $table->char('NIK');
+            $table->string('Nama');
+            $table->string('Umur');
+            $table->string('Kondisi');
             $table->timestamps();
         });
     }
