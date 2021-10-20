@@ -120,7 +120,7 @@
           <div class="carousel-item" style="background-image: url('assets/img/slide/TanahLongsor.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown"> Judul </h2>
+                <h2 class="animate__animated animate__fadeInDown"> Tanah Longsor </h2>
                 <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
@@ -167,7 +167,7 @@
 
             <div class="section-title">
               <h2>About Us</h2>
-              <p>Disini kami akan membantu evakuasi korban bencana alam , memberi bantuan , dan berusaha semaksimal mungkin agar korban bencana alam mendaptkan faslisitas yang layak </p>
+              <p>Disini kami akan membantu evakuasi korban bencana alam , memberi bantuan , dan berusaha semaksimal mungkin agar korban bencana alam mendapatkan faslisitas yang layak </p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
@@ -178,8 +178,11 @@
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 class="title"><a href="">Layanan Kami</a></h4>
+              <p class="description">Tempat Pengaduan Bencana Alam yang anda alami
+                , Menerima Bantuan berupa Sembako dan kebutuhan pokok lainnya untuk disalurkan pada korban bencana alam
+                , Menerima Relawan untuk membatu dalam berbagi kebahagiaan dengan korban bencana alam
+              </p>
             </div>
 
           </div>
