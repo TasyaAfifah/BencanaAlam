@@ -474,7 +474,7 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="pic"><img src="assets/img/team/team 1.jpg"   class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/tasya.jpg"   class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Afifah Aghnia Mumtaz</h4>
                 <span>CEO</span>
@@ -491,7 +491,7 @@
 
           <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member" >
-              <div class="pic"><img src="assets/img/team/bayu.png"   class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/Bayuu.png"   class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Bayu Kharismulloh</h4>
                 <span>Manager</span>
