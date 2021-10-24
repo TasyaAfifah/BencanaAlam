@@ -257,22 +257,17 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
             <h4 class="title"><a href="">Up To Date</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <p class="description">Web bencana ini merupakan web yang paling Up To Date untuk semua bencana yang ada</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-bounding-box"></i></div>
             <h4 class="title"><a href="">Data Real Time</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <p class="description">Web bencana ini mengupdate sesuai waktu dan tanggal terjadinya bencana</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-globe"></i></div>
             <h4 class="title"><a href="">Informatif</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="bi bi-globe"></i></div>
-            <h4 class="title"><a href="">Komunikatif</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <p class="description">Web ini menyajikan hal-hal yang sangat informatif seperti pengetahuan</p>
           </div>
         </div>
 
@@ -295,9 +290,9 @@
               <li data-filter=".filter-app">Banjir</li>
               <li data-filter=".filter-card">Tanah Longsor</li>
               <li data-filter=".filter-web">Gunung Meletus</li>
-              <li data-filter=".filter-app">Gempa Bumi</li>
-              <li data-filter=".filter-card">Tsunami</li>
-              <li data-filter=".filter-web">Angin Puting Beliung</li>
+              <li data-filter=".filter-bby">Gempa Bumi</li>
+              <li data-filter=".filter-alp">Tsunami</li>
+              <li data-filter=".filter-aby">Angin Puting Beliung</li>
             </ul>
           </div>
         </div>
@@ -320,12 +315,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/gunung1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/gunung1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -334,12 +329,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/banjir2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/banjir2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -348,12 +343,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/longsor1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/longsor1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -362,12 +357,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/gunung2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/gunung2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -376,12 +371,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/banjir3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/banjir3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -390,12 +385,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/longsor2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/longsor2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -404,12 +399,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/longsor3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/longsor3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
@@ -418,16 +413,144 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/gunung3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="assets/img/portfolio/gunung3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bby">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/gempa1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>bby 1</h4>
+                <p>bby</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/gempa1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="bby 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bby">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/gempa2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>bby 2</h4>
+                <p>bby</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/gempa2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="bby 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bby">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/gempa3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>bby 3</h4>
+                <p>bby</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/gempa3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="bby 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-alp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/tsunami1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>alp 1</h4>
+                <p>alp</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/tsunami1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="alp 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-alp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/tsunami2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>alp 2</h4>
+                <p>alp</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/tsunami2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="alp 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-alp">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/tsunami3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>alp 3</h4>
+                <p>alp</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/tsunami3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="alp 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-aby">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/angin1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>aby 1</h4>
+                <p>aby</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/angin2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="aby 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-aby">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/angin2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>aby 2</h4>
+                <p>aby</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/angin2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="aby 2"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-aby">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/angin3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>aby 3</h4>
+                <p>aby</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/angin3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="aby 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    
           </div>
 
         </div>
@@ -449,7 +572,7 @@
             <div class="member">
               <div class="pic"><img src="assets/img/team/bayu-1.jpeg" style="width:250px" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Bayu Kharismulloh</h4>
                 <span>Chief Executive Officer</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
@@ -465,8 +588,8 @@
             <div class="member">
               <div class="pic"><img src="assets/img/team/tasya.jpg" style="width:250px" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Tasya Afifah</h4>
+                <span>Chief Executive Officerr</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -504,37 +627,45 @@
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="100">
-            <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
+            <h4>Tanda tanda terjadi tsunami bagaimana?</h4>
             <p>
-              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+            Tanah bergetar dan suara gemuruh ombak yang tak biasa,
+            Air laut mendadak surut,
+            Binatang dan kemampuan merasakan bahaya yang akan datang seperti burung camar beterbangan mendekati daratan.
             </p>
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="200">
-            <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
+            <h4>Apa yang dimaksud dengan reboisasi?</h4>
             <p>
-              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
+            reboisasi merupakan penghijauan yang dilakukan di hutan gundul. Dengan demikian, yang dimaksud dengan reboisasi merupakan penanaman hutan kembali, yakni hutan yang sudah gundul agar dapat berfungsi dengan baik, yakni sesuai dengan peruntukkannya lagi.
             </p>
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="300">
-            <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
+            <h4>Upaya apa saja yang dapat di lakukan untuk menangani bencana alam?</h4>
             <p>
-              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+              Menjaga lingukungan sekitar,
+              Hindari membuat rumah di pinggiran sungai, 
+              Melaksanakan program tebang pilih dan reboisasi, 
+              Buanglah sampah pada tempatnya,
+              Rajin Membersihkan Saluran Air, 
+              Membangun Pemecah Gelombang,
+              Hutan Mangrove/Bakau.
             </p>
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="400">
-            <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
+            <h4>Jelaskan apa yang dimaksud dengan mitigasi?</h4>
             <p>
-              Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+            Menurut UU Nomor 24 Tahun 2007, mengatakan bahwa Pengertian Mitigasi adalah serangkaian upaya untuk mengurangi resiko bencana, baik melalui pembangunan fisik maupun penyadaran dan peningkatan kemampuan menghadapi ancaman bencana.Mitigasi adalah kegiatan yang dilakukan sebelum bencana terjadi.
             </p>
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="500">
-            <h4>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</h4>
+            <h4>Apa itu penanggulangan bencana alam?</h4>
             <p>
-              Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+            Secara umum, penanggulangan bencana alam dapat dikatakan sebagai segala upaya meliputi kegiatan mencegah, menjinakkan, penyelamatan, rehabilitasi, dan rekonstruksi, baik sebelum maupun sesudah bencana terjadi.
             </p>
           </div>
 
