@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Provinsi extends Model
 {
+    use HasFactory;
     protected $table = 'Provinsi';
 
     public function kota()

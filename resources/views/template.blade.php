@@ -6,12 +6,13 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Hotline Bencana Alam</title>
+  
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/letter-h.png" rel="icon">
+  <link href="assets/img/letter-h.png" rel="letter-h-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
@@ -41,10 +42,7 @@
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-      </div>
+   
       <div class="social-links d-none d-md-block">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -69,10 +67,12 @@
           <li><a class="nav-link scrollto active" href="#hero"style="font-weight:bold;">Home</a></li>
           <li><a class="nav-link scrollto" href="#about"style="font-weight:bold;">About Us</a></li>
           <li><a class="nav-link scrollto" href="#services"style="font-weight:bold;"> Information</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio"style="font-weight:bold;">Register</a></li>
           <li><a class="nav-link scrollto" href="#team"style="font-weight:bold;">Team</a></li>
-       
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio"style="font-weight:bold;">Galeri</a></li>
+          <li><a class="nav-link scrollto" href="#contact"style="font-weight:bold;">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/"style="font-weight:bold;">Register</a></li>
+          <li><a class="nav-link scrollto" href="/"style="font-weight:bold;">Log in</a></li>
+        
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -179,6 +179,7 @@
 
       </div>
     </section><!-- End About Us Section -->
+
 
     <!-- ======= About Lists Section ======= -->
     <section class="about-lists">
@@ -548,7 +549,7 @@
 
         <div class="section-title">
           <h2>Our Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+          <p>.</p>
         </div>
 
         <div class="row justify-content-center">
@@ -593,7 +594,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Tanya Jawab</h2>
+          <h2>Frequently Asked Question</h2>
         </div>
 
         <div class="row  d-flex align-items-stretch">
@@ -611,7 +612,7 @@
           </div>
 
           <div class="col-lg-6 faq-item" data-aos="fade-up" data-aos-delay="100">
-            <h4>Tanda tanda terjadi tsunami bagaimana?</h4>
+            <h4>Bagaimana tanda - tanda terjadi tsunami?</h4>
             <p>
             Tanah bergetar dan suara gemuruh ombak yang tak biasa,
             Air laut mendadak surut,
