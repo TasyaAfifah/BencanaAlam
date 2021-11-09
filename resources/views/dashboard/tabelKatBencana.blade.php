@@ -1,9 +1,9 @@
 @extends('layouts.dashboard')
 
 @section('container')
+  
     <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-    <div><button class="btn btn-primary " type="submit">Add</button></div>
-
+    <div><a href="/createKategori_Bencana"><button class="btn btn-primary " type="submit">Add</button></div></a>
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">

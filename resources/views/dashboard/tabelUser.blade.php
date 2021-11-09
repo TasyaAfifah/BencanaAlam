@@ -17,22 +17,21 @@
                                             <th> ID</th>
                                             <th> Nama User</th>
                                             <th> Email </th>
-                                            <th> Tanggal Lahir</th>
                                             <th> Password</th>
-                                            <th> Remember Token</th>
-                                         
-                                        
+                                            <th> Tanggal Lahir</th>
                                             
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach ($user as $dataUser)
+                                        @foreach ($user2 as $dataUser)
                                         <tr>
-                                            <td>{{ $dataUser-> id }}</td>
-                                            <td>{{ $dataUser -> nama_user }}</td>
-                                            <td>{{ $dataUser -> tgl_lahir }}</td>
-                                            <td>{{ $dataUser-> password }}</td>
-                                            <td>{{ $dataUser -> remember_token }}</td>
+                                            <td>{{ $dataUser->id }}</td>
+                                            <td>{{ $dataUser->nama }}</td>
+                                            <td>{{ $dataUser->email }}</td>
+                                            <td>{{ $dataUser->password }}</td>
+                                            <td>{{ $dataUser->tgl_lahir }}</td>
+                                          
+                                
                                            
                                            
                                             <td><div class="d-grid"><button class="btn btn-warning btn-block" type="submit">Edit</button></div></td>

@@ -70,8 +70,16 @@
           <li><a class="nav-link scrollto" href="#team"style="font-weight:bold;">Team</a></li>
           <li><a class="nav-link scrollto" href="#portfolio"style="font-weight:bold;">Galeri</a></li>
           <li><a class="nav-link scrollto" href="#contact"style="font-weight:bold;">Contact</a></li>
-          <li><a class="nav-link scrollto" href="/"style="font-weight:bold;">Register</a></li>
-          <li><a class="nav-link scrollto" href="/"style="font-weight:bold;">Log in</a></li>
+          <li><a class="nav-link scrollto" href="/dashboard"style="font-weight:bold;">Dashboard</a></li>
+        
+   
+          <li class="dropdown"><a href="/"style="font-weight:bold;"><span>Account</span> <i class="bi bi-chevron-right"></i></a>
+            <ul>
+              <li><a href="#">Register</a></li>
+              <li><a href="#">Log in</a></li>
+             
+            </ul>
+          </li>
         
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

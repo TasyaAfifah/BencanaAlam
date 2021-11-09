@@ -56,7 +56,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Interface
+               MENU
             </div>
 
 
@@ -72,13 +72,31 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Tables</h6>
                         <a class="collapse-item" href="/user">User</a>
-                        <a class="collapse-item" href="/provinsi">Role</a>
+                        <a class="collapse-item" href="/role">Role</a>
                         <a class="collapse-item" href="/katbencana">Kategori Bencana</a>
                         <a class="collapse-item" href="/provinsi">Provinsi</a>
                      
                     </div>
+                    
                 </div>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="daftar.html">
+                <i class="fas fa-fw fa-folder"></i>
+                <span>Pendaftaran Korban </span>
+            </a>
+        </li>   
+
+                <li class="nav-item">
+                    <a class="nav-link" href="histori.html">
+                        <i class="fas fa-fw fa-chart-area"></i>
+                        <span>Histori</span></a>
+                </li>
+
+             
             </li>
+
+            
 
             <!-- Divider -->
             <hr class="sidebar-divider">
