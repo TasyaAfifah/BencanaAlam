@@ -83,7 +83,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="daftar.html">
                 <i class="fas fa-fw fa-folder"></i>
-                <span>Pendaftaran Korban </span>
+                <span>Korban Terdaftar </span>
             </a>
         </li>   
 

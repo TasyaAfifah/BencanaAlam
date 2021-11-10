@@ -39,26 +39,26 @@
                             <div class="col-md-12">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h1 class="h6 text-gray-900 mb-4"></h1>
+                                        <h1 class="h4 text-gray-900 mb-4"></h1>
                                     </div>
 
 
-                                    <form class="user" action="/createProvinsi" method="post">
+                                    <form class="user" action="/update-katbencana-{{ $katbencana->id }}"  method="post">
+                                        @method('put')
                                         @csrf
                                         <div class="form-group">
                                             <input type="name" class="form-control"
-                                                id="exampleInputEmail" name="nama_provinsi" aria-describedby="emailHelp"
-                                                placeholder="N
-                                                ama Provinsi">
+                                                id="exampleInputEmail" name="Kategori_Bencana" aria-describedby="emailHelp" value="{{ old('Kategori_Bencana', $katbencana->Kategori_Bencana) }}"
+                                                placeholder="Kategori Bencana">
                                         </div>
 
 
+                        
+
                                         <button type = "submit" class="btn btn-primary btn-user btn-block">
-                                            Tambah
+                                            Update
                                         </button> 
-                                        <hr>
                                     </form>
-                                    <hr>
                                 </div>
                             </div>
                         </div>

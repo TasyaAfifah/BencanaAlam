@@ -53,7 +53,7 @@
 
 
                                         <button type = "submit" class="btn btn-primary btn-user btn-block">
-                                            Add
+                                            Tambah
                                         </button> 
                                         <hr>
                                     </form>

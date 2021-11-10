@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Models\Role;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 
 class Role_Controller extends Controller
@@ -31,6 +32,29 @@ class Role_Controller extends Controller
         return view('dashboard.create.createRole', [
            
         ]);
+    }
+    public function destroy($id)
+    {
+       Role::find($id)->delete();
+
+        return redirect('/role')->with('deleterole','Delete success!');
+    }
+    public function edit($id)
+    {
+        return view('dashboard.edit.editRole', [
+            'role'  => Role::find($id),
+            "title" => Role::find($id)->role
+        ]);
+    }
+
+    public function update(Request $request, Role $Role)
+    {
+      
+        DB::table('role')->where('id',$request->id)->update([
+            'Role' => $request->Role
+        ]);
+
+        return redirect('/role');
     }
 }
 

@@ -48,12 +48,12 @@
                                         <div class="form-group">
                                             <input type="name" class="form-control"
                                                 id="exampleInputEmail" name="Kategori_Bencana" aria-describedby="emailHelp"
-                                                placeholder="kategori bencana">
+                                                placeholder="Kategori Bencana">
                                         </div>
 
 
                                         <button type = "submit" class="btn btn-primary btn-user btn-block">
-                                            Add
+                                            Tambah
                                         </button> 
                                         <hr>
                                     </form>

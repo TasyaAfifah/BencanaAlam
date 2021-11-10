@@ -47,3 +47,19 @@ Route::get('/createProvinsi', [Provinsi_Controller::class, 'createprovinsi']);
 
 Route::post('/createRole', [Role_Controller::class, 'store']);
 Route::get('/createRole', [Role_Controller::class, 'createrole']);
+
+Route::delete('/delete-katbencana-{id}', [Kategori_Bencana_Controller::class, 'destroy']);
+
+Route::delete('/delete-provinsi-{id}', [Provinsi_Controller::class, 'destroy']);
+
+Route::delete('/delete-role-{id}', [Role_Controller::class, 'destroy']);
+
+Route::get('/form-edit-katbencana-{id}', [Kategori_Bencana_Controller::class, 'edit']);
+Route::put('/update-katbencana-{id}', [Kategori_Bencana_Controller::class, 'update']);
+
+Route::get('/form-edit-provinsi-{id}', [Provinsi_Controller::class, 'edit']);
+Route::put('/update-provinsi-{id}', [Provinsi_Controller::class, 'update']);
+
+
+Route::get('/form-edit-role-{id}', [Role_Controller::class, 'edit']);
+Route::put('/update-role-{id}', [Role_Controller::class, 'update']);
