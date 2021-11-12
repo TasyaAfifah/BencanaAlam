@@ -30,6 +30,7 @@
                                         <tr>
                                             <td>{{ $dataUser-> id }}</td>
                                             <td>{{ $dataUser -> nama_user }}</td>
+                                            <td>{{ $dataUser -> email }}</td>
                                             <td>{{ $dataUser -> tgl_lahir }}</td>
                                             <td>{{ $dataUser-> password }}</td>
                                             <td>{{ $dataUser -> remember_token }}</td>
