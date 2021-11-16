@@ -75,7 +75,7 @@
    
           <li class="dropdown"><a href="/"style="font-weight:bold;"><span>Account</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
-              <li><a href="#">Register</a></li>
+              <li><a href="/register">Register</a></li>
               <li><a href="#">Log in</a></li>
              
             </ul>

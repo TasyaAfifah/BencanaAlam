@@ -7,7 +7,7 @@ use App\Http\Controllers\Role_Controller;
 use App\Http\Controllers\Provinsi_Controller;
 use App\Http\Controllers\Kategori_Bencana_Controller;
 use App\Http\Controllers\User2Controller;
-
+use App\Http\Controllers\Registrasi;
 
 
 /*
@@ -63,3 +63,5 @@ Route::put('/update-provinsi-{id}', [Provinsi_Controller::class, 'update']);
 
 Route::get('/form-edit-role-{id}', [Role_Controller::class, 'edit']);
 Route::put('/update-role-{id}', [Role_Controller::class, 'update']);
+
+Route::get ('/register',[Registrasi::class,'Register']);
